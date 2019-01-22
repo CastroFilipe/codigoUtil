@@ -1,0 +1,32 @@
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    width: 720px;
+    /* height: 40px; */
+    background: #159bc0 url('../imagens/fundo-horizontal.png') repeat-x;
+    float: left;
+}
+
+li {
+    float: left;
+}
+
+ul a {
+    display: block;
+    text-decoration: none;
+    padding: 0 2em;
+    line-height: 2.2em;
+    color: #ffffff;
+    background: url(../imagens/divisor.png) repeat-y;
+}
+
+/*remove o divisor do primeiro link da navegação*/
+li.primeiro a {
+    background: none;
+}
+
+ul a:hover {
+    color: #085662;
+    background: #44cade url(../imagens/divisor.png) repeat-y; 
+}
